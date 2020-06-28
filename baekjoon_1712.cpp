@@ -1,4 +1,4 @@
-// ¹®Á¦ URL: https://www.acmicpc.net/problem/1712
+//  URL: https://www.acmicpc.net/problem/1712
 #include <iostream>
 using namespace std;
 
