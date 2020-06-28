@@ -1,3 +1,4 @@
+//문제 URL : https://www.acmicpc.net/problem/1065
 #include <iostream>
 using namespace std;
 int hansu(int n){  //한수 구하기(각 자리 숫자가 등차수열을 이루는 수
