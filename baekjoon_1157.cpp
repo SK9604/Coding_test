@@ -1,3 +1,4 @@
+// Question URL: https://www.acmicpc.net/source/1157
 #include <iostream>
 #include <string.h>
 using namespace std;
