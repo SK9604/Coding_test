@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int reverse(int x){
+int reverse(int x){//숫자를 뒤집는 함수
 	int res=0;
 	while(x!=0){
 		res = res*10 + x%10;
@@ -10,7 +10,7 @@ int reverse(int x){
 	return res;
 }
 
-bool isPrime(int x){
+bool isPrime(int x){//소수인지 판별하는 함수
 	bool res;
 	int cnt=0;
 	for(int i = 1; i<=x; i++){
