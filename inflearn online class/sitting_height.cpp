@@ -2,22 +2,18 @@
 using namespace std;
 
 int main() {
-	int n, temp = 0, cnt = 0;
-	bool tf;
+	int n, cnt = 0, max;
 	cin>>n;
 	int input[n];
 	for(int i = 0; i<n; i++){
 		cin>>input[i];
 	}
-	for(int i = 0; i<n-1; i++){
-		tf = true;
-		for(int j = i+1; j<n; j++){
-			if(input[i]<=input[j]){
-				tf = false;
-				break;	
-			}			
+	max = input[n-1];
+	for(int i = n-2; i>=0; i--){
+		if(input[i]>max) {
+			cnt++;
+			max = input[i];
 		}
-		if(tf) cnt++;
 	}
 	cout<<cnt;	
 	return 0;
