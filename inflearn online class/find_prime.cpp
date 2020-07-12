@@ -16,5 +16,5 @@ int main() {
 		if(prime) cnt++;
 	}
 	cout<<cnt;
-	return 0;
+	return 0; 
 }

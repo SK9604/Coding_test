@@ -22,6 +22,6 @@ int main() {
 		}
 	}
 	if(res) cout<<"YES";
-	else cout<<"NO";
+	else cout<<"NO"; 
 	return 0;
 }

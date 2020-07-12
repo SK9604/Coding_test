@@ -16,7 +16,7 @@ int main() {
 	for(int i = 0; i<n; i++){
 		if(res[i]) cout<<"YES\n";
 		else cout<<"NO\n";
-	}
+	} 
 	
 	return 0;
 }

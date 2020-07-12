@@ -32,5 +32,5 @@ int main() {
 		if(b == true) cout<<res<<' ';
 		else continue;
 	}
-	return 0;
+	return 0; 
 }
