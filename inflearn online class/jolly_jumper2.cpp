@@ -7,7 +7,7 @@ int main() {
 	int n, now, pre, pos;
 	bool res;
 	cin>>n;
-	vector <int> jolly(n);
+	vector <int> jolly(n); // vector로 배열 선언 시 0으로 초기화 된다.
 	cin>>pre;
 	for(int i = 1; i<n; i++){
 		cin>>now;
