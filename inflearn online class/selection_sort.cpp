@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	int n, min = 214000000;
+	int n;
 	cin>>n;
 	vector <int> input(n);
 	for(int i = 0; i<n; i++){
