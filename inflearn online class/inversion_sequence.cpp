@@ -14,7 +14,7 @@ int main() {
 	for(int i = 1; i<=n; i++){
 		cnt = is[i-1]+1;
 		for(int j = 0; j<n; j++){
-			if(res[j] == 0&&cnt>0){
+			if(res[j] == 0){
 				cnt--;
 			}
 			if(cnt == 0&&res[j]==0){
