@@ -14,7 +14,7 @@ int main() {
 	for(int i = 1; i<=n; i++){
 		cnt = is[i-1]+1;
 		for(int j = 0; j<n; j++){
-			if(res[j] == 0){
+			if(res[j] == 0&&cnt>0){
 				cnt--;
 			}
 			if(cnt == 0&&res[j]==0){
@@ -27,7 +27,7 @@ int main() {
 		}
 	}
 	/*
-	¿ø·¡ ¼ö¿­¿¡¼­ inversion sequence·Î º¯°æÇÏ´Â ÄÚµå 
+	ì›ë˜ ìˆ˜ì—´ì—ì„œ inversion sequenceë¡œ ë³€ê²½í•˜ëŠ” ì½”ë“œ 
 	for(int i = 1; i<=n; i++){
 		cnt=0;
 		for(int j = 0; j<n; j++){
