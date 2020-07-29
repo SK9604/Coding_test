@@ -19,7 +19,7 @@ int main() {
 		res[pos] = i;
 	}
 	/*
-	¿ø·¡ ¼ö¿­¿¡¼­ inversion sequence·Î º¯°æÇÏ´Â ÄÚµå 
+	ì›ë˜ ìˆ˜ì—´ì—ì„œ inversion sequenceë¡œ ë³€ê²½í•˜ëŠ” ì½”ë“œ 
 	for(int i = 1; i<=n; i++){
 		cnt=0;
 		for(int j = 0; j<n; j++){
