@@ -11,6 +11,7 @@ int main() {
 		cin>>m[i];
 	}
 	sort(m.begin(), m.end());
+	rt = m[n-1];
 	while(lt<=rt){
 		mid = (lt+rt)/2;
 		cnt = 1, pos = m[0];
