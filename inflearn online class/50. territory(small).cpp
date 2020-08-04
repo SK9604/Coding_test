@@ -14,8 +14,8 @@ int main() {
 		}
 	}
 	cin>>hh>>hw;
-	for(int i = 0; i<h-hh; i++){
-		for(int j = 0; j<w-hw; j++){
+	for(int i = 0; i<h-hh+1; i++){
+		for(int j = 0; j<w-hw+1; j++){
 			sum = 0;
 			for(int x = i; x<i+hh; x++){
 				for(int y = j; y<j+hw; y++){
