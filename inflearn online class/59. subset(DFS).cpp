@@ -1,8 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <stack>
 using namespace std;
 int n, ch[11];
 void DFS(int x){
