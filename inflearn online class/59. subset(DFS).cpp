@@ -14,7 +14,7 @@ void DFS(int x){
 		ch[x-1] = 0;
 		DFS(x+1);
 	}
-}
+} 
 int main() {
 	cin>>n;
 	DFS(1);
