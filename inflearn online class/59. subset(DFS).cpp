@@ -1,8 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <stack>
 using namespace std;
 int n, ch[11];
 void DFS(int x){
@@ -18,7 +14,7 @@ void DFS(int x){
 		ch[x-1] = 0;
 		DFS(x+1);
 	}
-}
+} 
 int main() {
 	cin>>n;
 	DFS(1);
