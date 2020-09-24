@@ -1,4 +1,4 @@
-//Question URL : https://www.acmicpc.net/problem/4153
+//Question URL : https://www.acmicpc.net/problem/1002
 #include <iostream>
 #include <math.h>
 using namespace std;
