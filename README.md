@@ -1,5 +1,5 @@
 # Coding_test
-### 코딩테스트에 대비하여 
+### 코딩테스트에 대비하여 💻
 아래 사이트의 문제 풀이와 정리
 - [백준 온라인 저지](https://www.acmicpc.net/)
 - [프로그래머스](https://programmers.co.kr/)
