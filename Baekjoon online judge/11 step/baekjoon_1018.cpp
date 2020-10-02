@@ -1,7 +1,6 @@
 //Question URL: https://www.acmicpc.net/problem/1018
 #include <iostream>
 #include <vector>
-#include <cmath>
 using namespace std;
 
 int chkb(vector<vector<char> > board, int istart, int jstart){
